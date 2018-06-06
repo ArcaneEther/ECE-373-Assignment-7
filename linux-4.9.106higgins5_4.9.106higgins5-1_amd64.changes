@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 05 Jun 2018 18:25:34 -0700
+Source: linux-4.9.106higgins5
+Binary: linux-image-4.9.106higgins5 linux-headers-4.9.106higgins5 linux-firmware-image-4.9.106higgins5 linux-libc-dev linux-image-4.9.106higgins5-dbg
+Architecture: amd64 all
+Version: 4.9.106higgins5-1
+Distribution: xenial
+Urgency: low
+Maintainer: Anonymous <root@JH-E5420>
+Changed-By: Anonymous <root@JH-E5420>
+Description:
+ linux-firmware-image-4.9.106higgins5 - Linux kernel firmware, version 4.9.106higgins5
+ linux-headers-4.9.106higgins5 - Linux kernel headers for 4.9.106higgins5 on ${kernel:debarch}
+ linux-image-4.9.106higgins5 - Linux kernel, version 4.9.106higgins5
+ linux-image-4.9.106higgins5-dbg - Linux kernel debugging symbols for 4.9.106higgins5
+ linux-libc-dev - Linux support headers for userspace development
+Changes:
+ linux-4.9.106higgins5 (4.9.106higgins5-1) xenial; urgency=low
+ .
+   * Custom built Linux kernel.
+Checksums-Sha1:
+ 66edff044a80d09b2eb55649baf22ea84c2c0f59 964042 linux-firmware-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 55b5b8953bfb997f49ee7fba65507e125bb7412c 10546808 linux-headers-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ e445d20eadb7b84ad64c9d4187a7b31f30793cce 521072786 linux-image-4.9.106higgins5-dbg_4.9.106higgins5-1_amd64.deb
+ 49f2076e5ccdfbdfe32d2c33f9e0f2d8ae1a2b45 48039094 linux-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 5d2b01fa8f681bc6b9e0e59ab07c735bb3653de9 873262 linux-libc-dev_4.9.106higgins5-1_amd64.deb
+Checksums-Sha256:
+ 8da54edba60169d7ff7f0e4140d84b1b946dc706811043ae751a436e1d624b56 964042 linux-firmware-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 88e00a13cebb967d8e944f6ca69d034436cf27e53e12f0587548a5a064c15faa 10546808 linux-headers-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 8c306e468956cdff2ecce303640e9dd01521699507cf1388e12f9374c8959881 521072786 linux-image-4.9.106higgins5-dbg_4.9.106higgins5-1_amd64.deb
+ 89b9708eccfb13a2c24501b66bd3ba6c2ce52e60bf5cbab00db7e03a5c6e95b4 48039094 linux-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 7b47a13e4eb54ad33196eded5645662446b6724e926221f8511e5f8542cb0b76 873262 linux-libc-dev_4.9.106higgins5-1_amd64.deb
+Files:
+ 3d639c8da0f3cc69369339e6f3f22b9f 964042 kernel optional linux-firmware-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 03d257fd4b7bae229029a9128d72713a 10546808 kernel optional linux-headers-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ 99565453a823142a07e7f48bb87c7263 521072786 debug optional linux-image-4.9.106higgins5-dbg_4.9.106higgins5-1_amd64.deb
+ 64bf9f6b6a3c64bab8f0e284dacd4d41 48039094 kernel optional linux-image-4.9.106higgins5_4.9.106higgins5-1_amd64.deb
+ eb038e4feddc97da9b16e746e85e1be4 873262 devel optional linux-libc-dev_4.9.106higgins5-1_amd64.deb
